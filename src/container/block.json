@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "craigiswayne/cwpbs-container",
+	"version": "0.1.0",
+	"title": "Container (CWPBS)",
+	"category": "design",
+	"description": "https://getbootstrap.com/docs/5.0/layout/containers",
+	"supports": {
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"html": false
+	},
+	"attributes": {
+		"size": {
+			"type": "string",
+			"default": "container"
+		}
+	},
+	"textdomain": "cw-bootstrap-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
